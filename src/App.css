@@ -1,0 +1,86 @@
+.App {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    height: 100vh;
+    background-color: #FFFAF0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 3.5rem;
+}
+
+.main {
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-row {
+    max-height: 50%;
+    height: 50%;
+    min-height: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #e5e5e5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.img-responsive {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.image-random {
+    max-height: 100%;
+}
+
+.image-btn-row {
+    padding-top: 1rem;
+    height: 20%;
+    display: block;
+}
+
+.container-fluid: {
+    height: 100%;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-rand.outline {
+    border: 2px solid #DAA520;
+    color: #DAA520;
+}
+
+.btn-rand.outline:hover, .btn-rand.outline:focus, .btn-rand.outline:active, .btn-rand.outline.active, .open > .dropdown-toggle.btn-rand {
+    background: #FFD700;
+    color: #000000;
+    border-color: #FFD700;
+}
+
+
+.btn-rand.outline:active, .btn-rand.outline {
+    border-color: #DAA520;
+    color: #22222;
+    box-shadow: none;
+}
+
+.image-search-bar {
+    border-radius: 33px;
+}
+
+.a .i {
+    color: #000000;
+}
+
+.footer {
+    height: 3.5rem;
+    font-size: 120%;
+    color: #000000;
+}
